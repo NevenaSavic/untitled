@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c740c6-0a2d-446c-a521-a6316f214106" name="Changes" comment="" />
+    <list default="true" id="39c740c6-0a2d-446c-a521-a6316f214106" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DoubleClickPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicControlsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicLoad1Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day12_pom_design_explicit_wait/WebDriverWaitPractices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day13_review_and_practices/ExplicitWaitPractices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/day13_review_and_practices/T1_DoubleClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicLoad7Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pages/DynamicLoad7Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/tests/utilities/Driver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +43,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2E2u24FGMPMXPDTuPQWR77CSX6l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -39,7 +55,7 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.24301966&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ActionsPractices">
+  <component name="RunManager" selected="TestNG.WebDriverWaitPractices.dynamic_load_1_test">
     <configuration name="ActionsPractices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectEU9" />
       <extension name="coverage">
@@ -108,17 +124,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_CRM_LOGIN" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WebDriverWaitPractices.dynamic_load_1_test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectEU9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.tests.day7_webtables_utilities_javafaker.*" />
+          <option name="PATTERN" value="com.cydeo.tests.day12_pom_design_explicit_wait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.tests.day7_webtables_utilities_javafaker" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day7_webtables_utilities_javafaker.T3_CRM_LOGIN" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.tests.day12_pom_design_explicit_wait.WebDriverWaitPractices" />
+      <option name="METHOD_NAME" value="dynamic_load_1_test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WebDriverWaitPractices.dynamic_load_1_test" />
         <item itemvalue="TestNG.ActionsPractices" />
         <item itemvalue="TestNG.T2_Upload_Practice" />
         <item itemvalue="TestNG.T1_Registration_Form" />
         <item itemvalue="TestNG.SingletonPractice" />
-        <item itemvalue="TestNG.T3_CRM_LOGIN" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +163,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -153,11 +181,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/day9_javaFaker_testBase_driverUtil/SingletonPractice.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/cydeo/tests/utilities/Driver.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
